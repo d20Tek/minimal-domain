@@ -6,7 +6,7 @@ using D20Tek.Patterns.Domain.Validations;
 namespace D20Tek.Patterns.Domain.UnitTests.Validations;
 
 [TestClass]
-public class GuidValidations
+public class GuidValidationsTests
 {
     [TestMethod]
     public void NotEmpty_WithGuid_ReturnsTrue()
