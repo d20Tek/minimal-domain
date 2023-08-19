@@ -20,7 +20,7 @@ public static class StringValidations
 
     public static bool IsValidEmailAddress(this string email)
     {
-        if (email == null) return false;
+        if (string.IsNullOrEmpty(email)) return false;
 
         var regex = CreateRegEx();
         if (!regex.IsMatch(email))
