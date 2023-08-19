@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D20Tek.Patterns.Domain", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D20Tek.Patterns.Domain.UnitTests", "tests\D20Tek.Patterns.Domain.UnitTests\D20Tek.Patterns.Domain.UnitTests.csproj", "{217F2BD3-5761-40FB-A90B-A95BD30B496F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Domain", "samples\Sample.Domain\Sample.Domain.csproj", "{9A1D8F9C-B408-40B2-8E79-D509EAF1B947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{217F2BD3-5761-40FB-A90B-A95BD30B496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217F2BD3-5761-40FB-A90B-A95BD30B496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217F2BD3-5761-40FB-A90B-A95BD30B496F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1D8F9C-B408-40B2-8E79-D509EAF1B947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1D8F9C-B408-40B2-8E79-D509EAF1B947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1D8F9C-B408-40B2-8E79-D509EAF1B947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1D8F9C-B408-40B2-8E79-D509EAF1B947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
