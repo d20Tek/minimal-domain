@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>D20Tek.Patterns.Domain</Title>
+    <Version>0.0.5-prerelease</Version>
+    <Company>d20Tek</Company>
+    <Description>A basic implementation of base classes for clean architecture specifically designed for the Domain/Core and Application layers.</Description>
+    <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/d20Tek/patterns-domain</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/d20Tek/patterns-domain</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>patterns; domain; DDD; Entity; Clean Architecture</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="D20Tek.Patterns.Result" Version="0.0.17-prerelease" />
+  </ItemGroup>
+
+</Project>
