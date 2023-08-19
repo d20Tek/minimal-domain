@@ -138,4 +138,30 @@ public class StringValidationsTests
         // assert
         result.Should().BeFalse();
     }
+
+    [TestMethod]
+    public void IsGuidText_WithValidGuid_ReturnsTrue()
+    {
+        // arrange
+        var guid = "7DD6EF7C-73C9-4104-9B07-514EAD5E8E88";
+
+        // act
+        var result = guid.IsGuidText();
+
+        // assert
+        result.Should().BeTrue();
+    }
+
+    [TestMethod]
+    public void IsGuidText_WithInvalidGuid_ReturnsFalse()
+    {
+        // arrange
+        var guid = "7DD6EF7C-73C9-4104c9B07-514EAD5E8E88";
+
+        // act
+        var result = guid.IsGuidText();
+
+        // assert
+        result.Should().BeFalse();
+    }
 }
