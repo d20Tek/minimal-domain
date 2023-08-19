@@ -14,6 +14,10 @@ public sealed class AccountValidator : IValidator<Account>
         var result = new ValidationsResult();
 
         result.AddOnFailure(
+            () => account.Id.Value.NotEmpty(),
+            Error.Validation("id.empty", "Account Id must be a valid unique identifier."));
+
+        result.AddOnFailure(
             () => account.GivenName.NotEmpty(),
             Error.Validation("gn.empty", "GivenName should not be empty."));
 
