@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>D20Tek.Minimal.Domain</Title>
-    <Version>0.0.7-prerelease</Version>
+    <Version>0.0.8-prerelease</Version>
     <Company>d20Tek</Company>
     <Description>A basic implementation of base classes for clean architecture specifically designed for the Domain/Core and Application layers.</Description>
     <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="D20Tek.Patterns.Result" Version="0.0.17-prerelease" />
+    <PackageReference Include="D20Tek.Minimal.Result" Version="0.1.3-prerelease" />
   </ItemGroup>
 
 </Project>

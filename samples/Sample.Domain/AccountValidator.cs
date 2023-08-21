@@ -2,7 +2,7 @@
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
 using D20Tek.Minimal.Domain.Abstractions;
-using D20Tek.Patterns.Result;
+using D20Tek.Minimal.Result;
 using D20Tek.Minimal.Domain.Validations;
 
 namespace Sample.Domain;
