@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>D20Tek.Minimal.Domain</Title>
-    <Version>0.0.6-prerelease</Version>
+    <Version>0.0.7-prerelease</Version>
     <Company>d20Tek</Company>
     <Description>A basic implementation of base classes for clean architecture specifically designed for the Domain/Core and Application layers.</Description>
     <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
