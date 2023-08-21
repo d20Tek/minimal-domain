@@ -5,13 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>D20Tek.Patterns.Domain</Title>
-    <Version>0.0.5-prerelease</Version>
+    <Title>D20Tek.Minimal.Domain</Title>
+    <Version>0.0.6-prerelease</Version>
     <Company>d20Tek</Company>
     <Description>A basic implementation of base classes for clean architecture specifically designed for the Domain/Core and Application layers.</Description>
     <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
-    <PackageProjectUrl>https://github.com/d20Tek/patterns-domain</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/d20Tek/patterns-domain</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/d20Tek/minimal-domain</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/d20Tek/minimal-domain</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>patterns; domain; DDD; Entity; Clean Architecture</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
