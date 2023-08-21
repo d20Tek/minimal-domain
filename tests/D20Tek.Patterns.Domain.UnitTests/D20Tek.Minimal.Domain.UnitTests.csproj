@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\D20Tek.Patterns.Domain\D20Tek.Patterns.Domain.csproj" />
+    <ProjectReference Include="..\..\src\D20Tek.Patterns.Domain\D20Tek.Minimal.Domain.csproj" />
   </ItemGroup>
 
 </Project>

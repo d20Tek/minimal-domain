@@ -1,9 +1,9 @@
 ﻿//---------------------------------------------------------------------------------------------------------------------
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
-using D20Tek.Patterns.Domain.UnitTests.TestEntities;
+using D20Tek.Minimal.Domain.UnitTests.TestEntities;
 
-namespace D20Tek.Patterns.Domain.UnitTests;
+namespace D20Tek.Minimal.Domain.UnitTests;
 
 [TestClass]
 public class EntityTests

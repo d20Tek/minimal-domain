@@ -3,7 +3,7 @@
 //---------------------------------------------------------------------------------------------------------------------
 using System.Text.RegularExpressions;
 
-namespace D20Tek.Patterns.Domain.Validations;
+namespace D20Tek.Minimal.Domain.Validations;
 
 public static class StringValidations
 {

@@ -1,7 +1,7 @@
 ﻿//---------------------------------------------------------------------------------------------------------------------
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
-namespace D20Tek.Patterns.Domain;
+namespace D20Tek.Minimal.Domain;
 
 public abstract class ValueObject : IEquatable<ValueObject>
 {

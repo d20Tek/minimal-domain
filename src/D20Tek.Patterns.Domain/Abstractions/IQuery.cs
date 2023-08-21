@@ -1,7 +1,7 @@
 ﻿//---------------------------------------------------------------------------------------------------------------------
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
-namespace D20Tek.Patterns.Domain.Abstractions;
+namespace D20Tek.Minimal.Domain.Abstractions;
 
 public interface IQuery
 {

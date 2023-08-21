@@ -3,7 +3,7 @@
 //---------------------------------------------------------------------------------------------------------------------
 using D20Tek.Patterns.Result;
 
-namespace D20Tek.Patterns.Domain.Abstractions;
+namespace D20Tek.Minimal.Domain.Abstractions;
 
 public interface IValidator<in T>
 {

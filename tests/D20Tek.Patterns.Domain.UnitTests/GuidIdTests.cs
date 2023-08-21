@@ -1,7 +1,7 @@
 ﻿//---------------------------------------------------------------------------------------------------------------------
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
-namespace D20Tek.Patterns.Domain.UnitTests;
+namespace D20Tek.Minimal.Domain.UnitTests;
 
 [TestClass]
 public class GuidIdTests

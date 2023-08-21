@@ -1,10 +1,10 @@
 ﻿//---------------------------------------------------------------------------------------------------------------------
 // Copyright (c) d20Tek.  All rights reserved.
 //---------------------------------------------------------------------------------------------------------------------
-using D20Tek.Patterns.Domain.UnitTests.TestEntities;
-using D20Tek.Patterns.Domain.Validations;
+using D20Tek.Minimal.Domain.UnitTests.TestEntities;
+using D20Tek.Minimal.Domain.Validations;
 
-namespace D20Tek.Patterns.Domain.UnitTests.Validations;
+namespace D20Tek.Minimal.Domain.UnitTests.Validations;
 
 [TestClass]
 public class StringValidationsTests
