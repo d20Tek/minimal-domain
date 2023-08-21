@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\D20Tek.Patterns.Domain\D20Tek.Minimal.Domain.csproj" />
+    <ProjectReference Include="..\..\src\D20Tek.Minimal.Domain\D20Tek.Minimal.Domain.csproj" />
   </ItemGroup>
 
 </Project>
