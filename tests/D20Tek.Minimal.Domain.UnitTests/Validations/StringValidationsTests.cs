@@ -164,4 +164,69 @@ public class StringValidationsTests
         // assert
         result.Should().BeFalse();
     }
+
+    [TestMethod]
+    public void IsValidPhoneNumber_WithEmptyText_ReturnsFalse()
+    {
+        // arrange
+        var phone = "";
+
+        // act
+        var result = phone.IsValidPhoneNumber();
+
+        // assert
+        result.Should().BeFalse();
+    }
+
+    [TestMethod]
+    public void IsValidPhoneNumber_WithInvalidText_ReturnsFalse()
+    {
+        // arrange
+        var phone = "123-45";
+
+        // act
+        var result = phone.IsValidPhoneNumber();
+
+        // assert
+        result.Should().BeFalse();
+    }
+
+    [TestMethod]
+    public void IsValidPhoneNumber_WithValidUsNumber_ReturnsTrue()
+    {
+        // arrange
+        var phone = "555-123-4567";
+
+        // act
+        var result = phone.IsValidPhoneNumber();
+
+        // assert
+        result.Should().BeTrue();
+    }
+
+    [TestMethod]
+    public void IsValidPhoneNumber_WithValidUsNumberParens_ReturnsTrue()
+    {
+        // arrange
+        var phone = "(555) 123-4567";
+
+        // act
+        var result = phone.IsValidPhoneNumber();
+
+        // assert
+        result.Should().BeTrue();
+    }
+
+    [TestMethod]
+    public void IsValidPhoneNumber_WithValidIntlNumber_ReturnsTrue()
+    {
+        // arrange
+        var phone = "+44 20 7123 4567";
+
+        // act
+        var result = phone.IsValidPhoneNumber();
+
+        // assert
+        result.Should().BeTrue();
+    }
 }
