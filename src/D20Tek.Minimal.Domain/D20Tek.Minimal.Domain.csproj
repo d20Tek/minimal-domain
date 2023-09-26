@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>D20Tek.Minimal.Domain</Title>
-    <Version>0.0.10-prerelease</Version>
+    <Version>0.0.11-prerelease</Version>
     <Company>d20Tek</Company>
     <Description>A basic implementation of base classes for clean architecture specifically designed for the Domain/Core and Application layers.</Description>
     <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <PackageReference Include="D20Tek.Minimal.Result" Version="0.1.4-prerelease" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
