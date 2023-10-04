@@ -7,7 +7,7 @@ using System.Diagnostics.CodeAnalysis;
 namespace D20Tek.Minimal.Domain.UnitTests;
 
 [TestClass]
-public class AggreateRootTests
+public class AggregateRootTests
 {
     internal class TestAggregate : AggregateRoot<Guid>
     {
